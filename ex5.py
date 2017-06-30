@@ -26,7 +26,7 @@ print "Zedshaws weight (%d) in kilograms is %f" % (weight, pound_converter)
 #2 Trying out various python format characters
 my_age = 19
 my_weight = 354.2
-my_grade = "a"
+my_grade = "A"
 failing_grade = "f"
 
 print "Yeah, she's %d. %i is pretty old." %(my_age,my_age) 
@@ -34,4 +34,5 @@ print "I should probably go on a diet, I weigh %f." % my_weight
 print "Alphonce gave me an %c in the class." % my_grade
 print "You got a %c too" % failing_grade
 
-print "Billy Bob just turned %r the other day yet weighs %r pounds. It's probably beause he studies in his room all day hence why he got an %r in Mrs.Hutchinsons class." % (my_age,my_weight,my_grade)
+print "Billy Bob just turned %r the other day yet weighs %r pounds. It's probably beause he studies in his room all day hence why he got an %s in Mrs.Hutchinsons class." % (my_age,my_weight,my_grade)
+print "The third season of AOT comes out in %d" % 2018
