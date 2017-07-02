@@ -1,0 +1,67 @@
+"What do you know so far" Review:
+
+print -> "Printing Statement" : A statement that allows the user to print any statement 
+to the terminal
+
+# -> "Octothorp/Pound" : A character that allows any comments you write after it to be ignored 
+when running your program
+""" -> "Triple quotes" : Allows you to make unlimited amount of comments 
+
+xyz -> "Variables" : Place holder for values
+
+> Math Operators <
++ -> "Plus" : Addition
+- -> "Minus" : Subtraction
+/ -> "Slash: : Division 
+* -> "Asterisk : Multiplication
+% -> "Percent"/ modulo : Finds the remainder
+< -> "Less than" : Compares two numbers/lesser than
+> -> "Greater than" : Compares two numbers/greater than
+<= -> "Less than or equal to" : Compares two numbers, whether two numbers are equivalent or less than
+>= -> "Greater than or equal to" : Compares two numbers, whether two numebrs are equivalent or greater than
+0.12 -> "Floating point": Numbers with a decimal
+round() -> "Round function" : Rounds whatever number is in ()
+int() -> "Int function" : Converts to an integer
+
+= -> "Assignment operator/"equals" : Assigns the value on the right to a variable on the left
+== -> "double equal" : tests if two things have the same value 
+
+%s -> "String" : String that converts any python object using str()/placeholder for a string. (For display)
+%d/%i -> "integers/digits": Placeholder for numbers/integers
+%r -> "String" : String that converts any python object using repr()/placeholder for a string. (More for debugging and raw representation)
+%f -> "Float point" : Placeholder for float numbers/decimals
+%c -> "Single character" : Placeholder for single characters
+
+"\" -> "Backlash" : used as a marker character to tell the compiler that the next character has some special meaning
+"\n" -> "Escape character/linefeed" : Used to make a new line
+"\' \" -> "Single qoute" : Used when a string comment has double/single quotes inside it
+"\t" -> "tab" : indent
+"\b" -> "backspace" : backspace
+
+raw_input() -> "raw_input function" : Promps user to input something
+
+pydoc -> "pydoc" : Documentation generation system for python accessible within the terminal
+
+open() : Opens a file, returning an object of the file type
+read() -> "Reading Function" : Reads the contents of a file
+close() -> "Closing Function" : Closes file
+write('stuff') -> "Writing Function" : Writes 'stuff' to the file (Takes a parameter of a string you want to write to the file)
+seek() -> "seek function" : Sets the file's current position. Default position is 0
+len() -> "length function" : Returns the length of a specific string
+readLine : Reads just one line of a text file
+truncate : Empties the file
+
+import : Imports modules from other python libraries to your script.
+script : Python files (.py files)
+Modules : Python source file, holds classes, functions and Variables
+
+argv -> "argument variable" : Holds arguments you pass to your python script when you run it
+arguments/parameters : names used to specify what arguments a function will need when it's called
+Function : A block of organized code, resuabele code that is used to preform a action. 
+def -> "function" : def is used to create a function
+return : returns a value from a function
+
+
+
+
+
