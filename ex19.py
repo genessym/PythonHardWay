@@ -31,25 +31,29 @@ cheese_and_crackers(10 + 20, 5 + 6)
 # 100 gets assigned to amount_of_cheese and 1000 gets assigned to amount_of_crackers
 cheese_and_crackers(amount_of_cheese + 100,amount_of_crackers + 1000)
 
-def largest (sumo1,sumo2):
-    print """ Hello ladies & gentlemen, today we will be presenting
- the two greatest sumo wrestlers ever known to man fighting for the
- title of "largest sumo:"""
-    print " Sumo1 ranking at %d pounds" % sumo1
-    print " And sumo2 ranking at %d pounds\n" %sumo2
+def smores (graham_crackers, chocolate_bars):
+    print "We have %d graham crackers" % graham_crackers
+    print "And we have %d chocolate bars" % chocolate_bars
+    print "Let's make some smores!!"
+
+print "Printing numbers directly:"
+smores (50,25)
 
 
-print "Do you know what the two largest sumo wrestlers weigh?"
-largest (475, 512)
+print "\nAdding numbers:"
+smores(10+20,30 + 40)
 
-print "Do you know what the two largest sumo wrestlers weigh?"
-sumo1w = raw_input("Sumo1 weighs:")
-sumo2w = raw_input("Sumo2 weighs:")
+print"\nVariables:"
+graham_crackers = 1000
+chocolate_bars = 4000
+smores(graham_crackers,chocolate_bars)
 
-print "Biggest sumos are: "
-weight1 = 532
-weight2 = 473
-largest(weight1,weight2)
+print "\n variables and adding:"
+smores(graham_crackers +325, chocolate_bars + 375)
 
-print "Biggest sumos still are:"
-largest(423 + 124, 162 + 354)
+ #Raw input attempt
+print ("\n")
+graham = int(raw_input("How many graham crackers do we have?\n>"))
+chocolate = int(raw_input("How many chocolate bars do we have?\n>"))
+print ("We have %d graham crackers and %d chocolate bars.") % (graham,chocolate)
+print "Let's make smores!"
