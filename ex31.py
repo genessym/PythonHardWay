@@ -41,7 +41,7 @@ elif door == "2":
         if floor == "1":
             print "You see pewdiepie waiting for you in his lambo. You guy's live happily ever after."
         else: 
-            print "You walk out the elevator and find yourself on the roof. As you walk around, you find a newspaper with the headline \"Donald Trump is now president\. You jump off."
+            print "You get to the roof only to be eaten by a piranha plant."
   
     else:
         print "The yiga clan captures you and offers you to Calamity Ganon in exchange for a lifetime supply of bananas. Good job!"
@@ -57,7 +57,7 @@ elif door == "3":
         print "He kills you. Haha classic John Wick."
     if wick == "2":
         print "You escape to the roof of the building. Come to find John Wick is sitting on a yoga ball waiting for you. He shoots you in the head. Good job!"
-    else:
+    elif wick == "3":
         print "John offers you popcorn and takes you home later. Congrats."
 else:
     print "You stumble around and fall on a knife and die. Good job!"
