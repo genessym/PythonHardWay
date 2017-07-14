@@ -12,7 +12,7 @@ import math
 # ("test" != "testing") == True
 # ("test" == 1) == False
 # not (True and False) == True
-# not (1 == 1 and 0 != 1) == False  (got this wrong - right answer : true)
+# not (1 == 1 and 0 != 1) == False  (correction: got this right)
 # not (10 == 1 or 1000 == 1000) == False
 # not (1 != 10 or 3 == 4) == False
 # not ("testing" == "testing" and "Zed" == "Cool guy") == True
@@ -20,7 +20,7 @@ import math
 # "chunky" == "bacon" and (not( 3 == 4 or 3 == 3)) == False
 # 3 == 3 and (not( "testing" == "testing" or "Python" == "Fun")) == False
 
-# Got 19/20 right.
+# Got 20/20 right.
 
 #Study Drills:
 print True <= False
