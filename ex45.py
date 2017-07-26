@@ -2,7 +2,7 @@
 
 from sys import exit
 from random import randint
-import datetimefun
+import datetime_fun
 
 class Scene(object):
 
@@ -75,7 +75,7 @@ class Entrance(Scene):
 class SilentForest(Scene):
     
     def enter(self):
-        date = datetimefun.new_date
+        date = datetime_fun.new_date
         print('You get closer')
         print('* POOF *')
         print('Grey smoke suddenly fills the air.')
